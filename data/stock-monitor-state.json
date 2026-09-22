@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "stocks": {
+    "AAPL": {
+      "support": {
+        "low": 318.53,
+        "high": 326.1,
+        "center": 322.31,
+        "evidence": [
+          {
+            "kind": "ma20",
+            "center": 324.1215,
+            "rising_5d": true
+          },
+          {
+            "kind": "ma50",
+            "center": 320.502183774674,
+            "rising_5d": true
+          }
+        ],
+        "confidence": "中",
+        "reason": "20日与50日上行均线汇合；此前曾短暂跌破再收回，但该区缺少显著成交密集峰。",
+        "set_on": "2026-09-21"
+      },
+      "below_dates": [],
+      "last_scan_date": "2026-09-21",
+      "provider": "tiingo"
+    },
+    "LULU": {
+      "support": null,
+      "below_dates": [],
+      "last_scan_date": "2026-09-21",
+      "provider": "tiingo"
+    },
+    "TSLA": {
+      "support": {
+        "low": 354.27,
+        "high": 367.93,
+        "center": 361.1,
+        "evidence": [
+          {
+            "kind": "estimated_volume_cluster",
+            "center": 361.97599285714296,
+            "share_of_120d_volume": 0.085
+          },
+          {
+            "kind": "ma20",
+            "center": 360.2222499999999,
+            "rising_5d": true
+          }
+        ],
+        "confidence": "中",
+        "reason": "20日上行均线与估计成交密集区汇合；现价已回到其上，但近期曾在下方交易，尚待回踩确认。",
+        "set_on": "2026-09-21"
+      },
+      "below_dates": [],
+      "last_scan_date": "2026-09-21",
+      "provider": "tiingo"
+    },
+    "NVDA": {
+      "support": {
+        "low": 216.24,
+        "high": 222.29,
+        "center": 219.27,
+        "evidence": [
+          {
+            "kind": "estimated_volume_cluster",
+            "center": 220.72955204818203,
+            "share_of_120d_volume": 0.088
+          },
+          {
+            "kind": "ma20",
+            "center": 219.36011397009003,
+            "rising_5d": true
+          },
+          {
+            "kind": "estimated_volume_cluster",
+            "center": 217.70585955437133,
+            "share_of_120d_volume": 0.089
+          }
+        ],
+        "confidence": "中",
+        "reason": "20日上行均线与两个估计成交密集区汇合，现价在其上；近期多次穿越，支撑力度需观察。",
+        "set_on": "2026-09-21"
+      },
+      "below_dates": [],
+      "last_scan_date": "2026-09-21",
+      "provider": "tiingo"
+    },
+    "ADBE": {
+      "support": null,
+      "below_dates": [],
+      "last_scan_date": "2026-09-21",
+      "provider": "tiingo"
+    },
+    "DECK": {
+      "support": {
+        "low": 77.51,
+        "high": 79.97,
+        "center": 78.74,
+        "evidence": [
+          {
+            "kind": "estimated_volume_cluster",
+            "center": 78.74285714285709,
+            "share_of_120d_volume": 0.063
+          }
+        ],
+        "confidence": "中",
+        "reason": "近50日多次触及该估计成交密集区且未收盘跌破，但缺少均线汇合。",
+        "set_on": "2026-09-21"
+      },
+      "below_dates": [],
+      "last_scan_date": "2026-09-21",
+      "provider": "tiingo"
+    },
+    "MSFT": {
+      "support": null,
+      "below_dates": [],
+      "last_scan_date": "2026-09-21",
+      "provider": "tiingo"
+    },
+    "V": {
+      "support": {
+        "low": 363.96,
+        "high": 369.51,
+        "center": 366.74,
+        "evidence": [
+          {
+            "kind": "ma50",
+            "center": 367.219897273652,
+            "rising_5d": true
+          },
+          {
+            "kind": "estimated_volume_cluster",
+            "center": 366.2505,
+            "share_of_120d_volume": 0.071
+          }
+        ],
+        "confidence": "中",
+        "reason": "50日上行均线与估计成交密集区汇合，现价略高于区间；近期有多次穿越。",
+        "set_on": "2026-09-21"
+      },
+      "below_dates": [],
+      "last_scan_date": "2026-09-21",
+      "provider": "tiingo"
+    },
+    "TRI": {
+      "support": null,
+      "below_dates": [],
+      "last_scan_date": "2026-09-21",
+      "provider": "tiingo"
+    },
+    "RELX": {
+      "support": {
+        "low": 32.2,
+        "high": 33.14,
+        "center": 32.67,
+        "evidence": [
+          {
+            "kind": "estimated_volume_cluster",
+            "center": 32.90000000000003,
+            "share_of_120d_volume": 0.114
+          },
+          {
+            "kind": "estimated_volume_cluster",
+            "center": 32.43000000000003,
+            "share_of_120d_volume": 0.123
+          }
+        ],
+        "confidence": "低",
+        "reason": "附近有两个估计成交密集峰且近期低点接近，但20日、50日和200日均线均在现价上方。",
+        "set_on": "2026-09-21"
+      },
+      "below_dates": [],
+      "last_scan_date": "2026-09-21",
+      "provider": "tiingo"
+    }
+  }
+}

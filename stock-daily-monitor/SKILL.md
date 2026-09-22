@@ -26,6 +26,8 @@ description: 从本地 stock.txt 读取持仓与候选池股票，使用 AKShare
 
 ## 测试与依赖
 
+云端预扫描由 `.github/workflows/tiingo-daily-scan.yml` 在北京时间周二至周六 08:30 触发，也可手动运行。它使用 GitHub Actions Secret `TIINGO_API_KEY`，调用 `scripts/cloud_scan.py`，仅在所有股票与基准均为当日已完成的美股交易日且数据完整时，保存 `data/latest-scan.json`、`data/scans/YYYY-MM-DD.json` 与 `data/stock-monitor-state.json`。这一步只取数和预筛选，不生成日报或发送邮件；网页端计划任务须读取最新扫描结果，完成新闻、AI 支撑位复核及 Gmail 发送。若首次运行因缺少 Secret 失败，先在仓库的 Actions Secrets 配置原始 Tiingo 密钥，不要上传 `tiingo.json`。
+
 安装 `scripts/requirements.txt`。当前 `stock.txt` 有九只持仓，AAPL 在观察池；LULU 配有 DECK、NKE 可比公司。测试运行：
 
 `python stock-daily-monitor/scripts/scan.py --list stock.txt --state analysis/stock-monitor-state.json --output analysis/stock-scan-test.json --dry-run`

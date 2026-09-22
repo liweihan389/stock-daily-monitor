@@ -1,0 +1,52 @@
+name: Tiingo daily scan
+
+on:
+  schedule:
+    # 08:30 Asia/Shanghai, Tuesday through Saturday (after US Monday-Friday close).
+    - cron: "30 0 * * 2-6"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Replace an existing scan for the current US date
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tiingo-daily-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: stock-daily-monitor/scripts/requirements-cloud.txt
+      - name: Install scan dependencies
+        run: python -m pip install -r stock-daily-monitor/scripts/requirements-cloud.txt
+      - name: Scan latest completed US trading day
+        env:
+          TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
+          FORCE_RESCAN: ${{ inputs.force }}
+        run: |
+          if [ "$FORCE_RESCAN" = "true" ]; then
+            python stock-daily-monitor/scripts/cloud_scan.py --force
+          else
+            python stock-daily-monitor/scripts/cloud_scan.py
+          fi
+      - name: Save scan and support state
+        run: |
+          git add data
+          if ! git diff --cached --quiet; then
+            git -c user.name="github-actions[bot]" -c user.email="github-actions[bot]@users.noreply.github.com" commit -m "Save Tiingo scan and support state"
+            git push origin HEAD:main
+          fi
