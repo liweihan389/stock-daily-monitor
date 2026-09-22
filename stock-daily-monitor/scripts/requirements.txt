@@ -1,0 +1,4 @@
+yfinance>=0.2.66,<2
+pandas>=2,<3
+akshare>=1.18,<2
+requests>=2.31,<3

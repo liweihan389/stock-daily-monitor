@@ -1,0 +1,10 @@
+
+.venv-us-stock/
+
+us-stock-research/.cache/
+
+**/__pycache__/
+**/tiingo.json
+
+.DS_Store
+analysis/
