@@ -23,12 +23,14 @@
         "set_on": "2026-09-21"
       },
       "below_dates": [],
+      "low_alert": null,
       "last_scan_date": "2026-09-21",
       "provider": "tiingo"
     },
     "LULU": {
       "support": null,
       "below_dates": [],
+      "low_alert": null,
       "last_scan_date": "2026-09-21",
       "provider": "tiingo"
     },
@@ -54,6 +56,7 @@
         "set_on": "2026-09-21"
       },
       "below_dates": [],
+      "low_alert": null,
       "last_scan_date": "2026-09-21",
       "provider": "tiingo"
     },
@@ -84,12 +87,14 @@
         "set_on": "2026-09-21"
       },
       "below_dates": [],
+      "low_alert": null,
       "last_scan_date": "2026-09-21",
       "provider": "tiingo"
     },
     "ADBE": {
       "support": null,
       "below_dates": [],
+      "low_alert": null,
       "last_scan_date": "2026-09-21",
       "provider": "tiingo"
     },
@@ -110,12 +115,14 @@
         "set_on": "2026-09-21"
       },
       "below_dates": [],
+      "low_alert": null,
       "last_scan_date": "2026-09-21",
       "provider": "tiingo"
     },
     "MSFT": {
       "support": null,
       "below_dates": [],
+      "low_alert": null,
       "last_scan_date": "2026-09-21",
       "provider": "tiingo"
     },
@@ -141,12 +148,14 @@
         "set_on": "2026-09-21"
       },
       "below_dates": [],
+      "low_alert": null,
       "last_scan_date": "2026-09-21",
       "provider": "tiingo"
     },
     "TRI": {
       "support": null,
       "below_dates": [],
+      "low_alert": null,
       "last_scan_date": "2026-09-21",
       "provider": "tiingo"
     },
@@ -172,6 +181,7 @@
         "set_on": "2026-09-21"
       },
       "below_dates": [],
+      "low_alert": null,
       "last_scan_date": "2026-09-21",
       "provider": "tiingo"
     }
