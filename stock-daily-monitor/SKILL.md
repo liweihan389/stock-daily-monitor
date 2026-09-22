@@ -19,7 +19,7 @@ description: 从本地 stock.txt 读取持仓与候选池股票，使用 AKShare
 
 - 持仓绝对涨跌达到 3%，候选池达到 5%，或相对板块 ETF／可比公司篮子偏离达到 2 个百分点，进入研究。没有有效板块或可比公司基准时，以相对大盘偏离 2 个百分点作为临时筛选依据，并在日报注明归因限制。绝对跌幅达到 5% 无论基准如何都进入研究。支撑位触及／破位独立触发。
 - 先判断价格是否主要跟随大盘、板块 ETF／可比公司篮子，还是显著偏离；这只是搜索路由与证据，不是因果证明。在添加股票时优先选贴近其业务的板块 ETF，写成 `sector=XLK`。没有合适 ETF 时，可选 2–4 只业务、客户和市场较相近且流动性足够的可比公司，写成 `peers=DECK,NKE`。首次选择要核对代码和可比理由，后续沿用；业务变化或公司行动时复核，不每天重新搜索。ETF 和可比公司篮子不能混为同一种板块指标。日涨跌采用各可比公司等权平均，并在日报列出成分与各自涨跌；成分分化或某只公司有独立事件时，不能笼统说“跟随板块”。任一可比公司缺少同一交易日及前一交易日的数据时，不计算篮子，用相对大盘作临时筛选并标明缺口。
-- 默认使用 AKShare `stock_us_daily(adjust="qfq")` 的前复权 OHLC。选 `--provider tiingo` 时，默认从当前工作目录的 `tiingo.json` 读取 `api_key`；也可通过 `--tiingo-key-file /绝对路径/credentials.json` 指定文件。Tiingo End-of-Day 使用 `adjOpen/adjHigh/adjLow/adjClose/adjVolume`，再归一到最新交易日现价口径。令 token 只出现在请求头，不写入扫描 JSON、日志、日报或 skill 文件；缺少或无效时明确报错，不静默换源。Tiingo 是收盘日线，不用于盘中实时提醒。可用 `--provider yahoo` 选 Yahoo；其历史 OHLC 用当日 `Adj Close / Close` 缩放到同一复权口径。日线价位分布只能估算。所有支撑区、均线、当前价必须在同一价格口径。行情可能延迟；日报写明来源、抓取时刻和最新交易日。切换来源时程序将旧支撑位标为待复核并重新计算候选，不直接沿用。不同来源不在同一次扫描中混用。
+- 默认使用 AKShare `stock_us_daily(adjust="qfq")` 的前复权 OHLC。选 `--provider tiingo` 时，密钥优先取显式 `--tiingo-key-file /绝对路径/credentials.json`，否则取 `TIINGO_API_KEY` 环境变量，最后才读取当前工作目录的 `tiingo.json` 中的 `api_key`。云端作业通过 Secrets 将原始密钥注入 `TIINGO_API_KEY`，不要提交密钥文件。Tiingo End-of-Day 使用 `adjOpen/adjHigh/adjLow/adjClose/adjVolume`，再归一到最新交易日现价口径。令 token 只出现在请求头，不写入扫描 JSON、日志、日报或 skill 文件；缺少或无效时明确报错，不静默换源。Tiingo 是收盘日线，不用于盘中实时提醒。可用 `--provider yahoo` 选 Yahoo；其历史 OHLC 用当日 `Adj Close / Close` 缩放到同一复权口径。日线价位分布只能估算。所有支撑区、均线、当前价必须在同一价格口径。行情可能延迟；日报写明来源、抓取时刻和最新交易日。切换来源时程序将旧支撑位标为待复核并重新计算候选，不直接沿用。不同来源不在同一次扫描中混用。
 - 支撑位初选：20、50、200 日均线与近 120 日按典型价聚合的成交密集区；区间宽度由 14 日 ATR 估计。密集区是日线近似，不能视为逐笔成交价位。程序置信分仅供排序，AI 必须独立复核。
 - **无可信支撑时的阶段新低提醒：**以当天收盘价分别比较此前 120、252 个交易日（不含当天）的最低收盘价；120 日约半年，252 日约一年。跌破幅度须超过 `max(前低的 0.5%, 14 日 ATR 的 0.25 倍)` 才触发，优先标记为 252 日新低；数据不足 120 个此前交易日时标资料不足，不冒充阶段新低。盘中新低但收盘收回只在日报备注，不发此提醒。首次触发即列入日报重点；同一天不重复提醒，以后只有从 120 日升级为 252 日、或较上次提醒价再跌超过 `max(1%, 14 日 ATR 的 0.5 倍)` 时重复提醒。上次提醒已超出最近 120 个交易日，则视为新一轮。阶段新低是风险信号，不等同未来必跌或买卖建议；搜索同期公司及市场事件时仍遵守归因证据规则。
 - 扫描结果、状态、Markdown 日报用独立文件保存。异常或数据缺失要明确写入日报，不用旧数据填补当天。
@@ -30,6 +30,6 @@ description: 从本地 stock.txt 读取持仓与候选池股票，使用 AKShare
 
 `python stock-daily-monitor/scripts/scan.py --list stock.txt --state analysis/stock-monitor-state.json --output analysis/stock-scan-test.json --dry-run`
 
-Tiingo 示例：复制项目根目录的 `tiingo.example.json` 为 `tiingo.json`，将 `api_key` 改为真实密钥（该文件已被 `.gitignore` 忽略），然后给上述命令添加 `--provider tiingo`。也可用 `--tiingo-key-file` 指向其他本地 JSON。其 REST 日线字段与认证方式见 [Tiingo 官方文档](https://www.tiingo.com/documentation/end-of-day)和[连接说明](https://www.tiingo.com/documentation/general/connecting)。
+Tiingo 示例：本地可复制项目根目录的 `tiingo.example.json` 为 `tiingo.json`，将 `api_key` 改为真实密钥（该文件已被 `.gitignore` 忽略）；云端则把原始密钥配置为 `TIINGO_API_KEY` Secret。然后给上述命令添加 `--provider tiingo`。显式 `--tiingo-key-file` 仍可指定其他本地 JSON，并覆盖环境变量。其 REST 日线字段与认证方式见 [Tiingo 官方文档](https://www.tiingo.com/documentation/end-of-day)和[连接说明](https://www.tiingo.com/documentation/general/connecting)。
 
 `--dry-run` 不写状态，也不发邮件；如要测试状态更新，用另一个临时 state 路径。脚本输出仅是预筛选，仍需按上述步骤完成归因、AI 支撑复核与日报。

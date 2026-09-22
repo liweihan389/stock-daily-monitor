@@ -4,6 +4,7 @@ import argparse
 from datetime import datetime, timedelta, timezone
 import json
 import math
+import os
 from pathlib import Path
 import re
 import sys
@@ -80,6 +81,17 @@ def read_tiingo_key(path):
     if not isinstance(credentials, dict) or not isinstance(credentials.get("api_key"), str) or not credentials["api_key"].strip():
         raise ValueError("Tiingo key file must contain a nonempty api_key string")
     return credentials["api_key"].strip()
+
+
+def resolve_tiingo_key(key_file):
+    if key_file is not None:
+        return read_tiingo_key(key_file)
+    environment_key = os.environ.get("TIINGO_API_KEY")
+    if environment_key is not None:
+        if not environment_key.strip():
+            raise ValueError("TIINGO_API_KEY is empty")
+        return environment_key.strip()
+    return read_tiingo_key(Path("tiingo.json"))
 
 
 def fetch(ticker, provider, tiingo_token=None):
@@ -272,8 +284,8 @@ def main():
     parser.add_argument("--state", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--provider", choices=["akshare", "yahoo", "tiingo"], default="akshare")
-    parser.add_argument("--tiingo-key-file", type=Path, default=Path("tiingo.json"),
-                        help="Local JSON containing api_key; default ./tiingo.json")
+    parser.add_argument("--tiingo-key-file", type=Path,
+                        help="Explicit local JSON key file; otherwise use TIINGO_API_KEY or ./tiingo.json")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
     if args.output.exists():
@@ -282,7 +294,7 @@ def main():
     tiingo_token = None
     if args.provider == "tiingo":
         try:
-            tiingo_token = read_tiingo_key(args.tiingo_key_file)
+            tiingo_token = resolve_tiingo_key(args.tiingo_key_file)
         except ValueError as exc:
             parser.error(str(exc))
     state = json.loads(args.state.read_text(encoding="utf-8")) if args.state.exists() else {"version": 1, "stocks": {}}
