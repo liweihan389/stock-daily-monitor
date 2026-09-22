@@ -2,7 +2,7 @@
 """Run a Tiingo scan and publish only complete, current US trading-day data."""
 
 import argparse
-from datetime import datetime
+from datetime import datetime, time, timedelta
 import json
 import os
 from pathlib import Path
@@ -18,6 +18,15 @@ DATA = ROOT / "data"
 STATE = DATA / "stock-monitor-state.json"
 LATEST = DATA / "latest-scan.json"
 SCANNER = Path(__file__).with_name("scan.py")
+
+
+def latest_completed_session_date(now):
+    trading_day = now.date()
+    if now.time() < time(17, 0):
+        trading_day -= timedelta(days=1)
+    while trading_day.weekday() >= 5:
+        trading_day -= timedelta(days=1)
+    return trading_day
 
 
 def validate_scan(report, trading_day):
@@ -46,10 +55,7 @@ def main():
     if not os.environ.get("TIINGO_API_KEY", "").strip():
         parser.error("TIINGO_API_KEY secret is missing or empty")
 
-    trading_day = datetime.now(ZoneInfo("America/New_York")).date()
-    if trading_day.weekday() >= 5:
-        print("US calendar date is a weekend; no scan published")
-        return 0
+    trading_day = latest_completed_session_date(datetime.now(ZoneInfo("America/New_York")))
     if LATEST.exists() and not args.force:
         previous = json.loads(LATEST.read_text(encoding="utf-8"))
         if (previous.get("benchmarks") or {}).get("SPY", {}).get("date") == trading_day.isoformat():
