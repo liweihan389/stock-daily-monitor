@@ -28,7 +28,21 @@
       "provider": "tiingo"
     },
     "LULU": {
-      "support": null,
+      "support": {
+        "low": 97.02,
+        "high": 102.27,
+        "center": 99.65,
+        "evidence": [
+          {
+            "kind": "estimated_volume_cluster",
+            "center": 99.64685714285717,
+            "share_of_120d_volume": 0.145
+          }
+        ],
+        "confidence": "低",
+        "reason": "近120日估计成交密集区占比较高且现价刚回到其上，但近期财报跳空及20日均线下行削弱参考价值。",
+        "set_on": "2026-09-22"
+      },
       "below_dates": [],
       "low_alert": null,
       "last_scan_date": "2026-09-22",
@@ -92,7 +106,21 @@
       "provider": "tiingo"
     },
     "ADBE": {
-      "support": null,
+      "support": {
+        "low": 235.25,
+        "high": 245.94,
+        "center": 240.6,
+        "evidence": [
+          {
+            "kind": "estimated_volume_cluster",
+            "center": 240.59571428571425,
+            "share_of_120d_volume": 0.105
+          }
+        ],
+        "confidence": "低",
+        "reason": "收盘落在近120日估计成交密集区内，但当日放量下跌且缺少均线汇合，需观察能否止跌。",
+        "set_on": "2026-09-22"
+      },
       "below_dates": [],
       "low_alert": null,
       "last_scan_date": "2026-09-22",
@@ -120,7 +148,21 @@
       "provider": "tiingo"
     },
     "MSFT": {
-      "support": null,
+      "support": {
+        "low": 493.75,
+        "high": 504.17,
+        "center": 498.96,
+        "evidence": [
+          {
+            "kind": "ma20",
+            "center": 498.963,
+            "rising_5d": true
+          }
+        ],
+        "confidence": "低",
+        "reason": "现价位于上行20日均线候选区，但缺少成交密集区或更长期均线汇合。",
+        "set_on": "2026-09-22"
+      },
       "below_dates": [],
       "low_alert": null,
       "last_scan_date": "2026-09-22",
@@ -155,7 +197,21 @@
       "provider": "tiingo"
     },
     "TRI": {
-      "support": null,
+      "support": {
+        "low": 92.5,
+        "high": 96.81,
+        "center": 94.66,
+        "evidence": [
+          {
+            "kind": "estimated_volume_cluster",
+            "center": 94.6553142857143,
+            "share_of_120d_volume": 0.081
+          }
+        ],
+        "confidence": "低",
+        "reason": "现价处于估计成交密集区内，但缺少均线汇合，历史反应证据有限。",
+        "set_on": "2026-09-22"
+      },
       "below_dates": [],
       "low_alert": null,
       "last_scan_date": "2026-09-22",
