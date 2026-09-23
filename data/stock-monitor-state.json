@@ -24,14 +24,14 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-09-21",
+      "last_scan_date": "2026-09-22",
       "provider": "tiingo"
     },
     "LULU": {
       "support": null,
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-09-21",
+      "last_scan_date": "2026-09-22",
       "provider": "tiingo"
     },
     "TSLA": {
@@ -57,7 +57,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-09-21",
+      "last_scan_date": "2026-09-22",
       "provider": "tiingo"
     },
     "NVDA": {
@@ -88,14 +88,14 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-09-21",
+      "last_scan_date": "2026-09-22",
       "provider": "tiingo"
     },
     "ADBE": {
       "support": null,
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-09-21",
+      "last_scan_date": "2026-09-22",
       "provider": "tiingo"
     },
     "DECK": {
@@ -116,14 +116,14 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-09-21",
+      "last_scan_date": "2026-09-22",
       "provider": "tiingo"
     },
     "MSFT": {
       "support": null,
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-09-21",
+      "last_scan_date": "2026-09-22",
       "provider": "tiingo"
     },
     "V": {
@@ -147,16 +147,18 @@
         "reason": "50日上行均线与估计成交密集区汇合，现价略高于区间；近期有多次穿越。",
         "set_on": "2026-09-21"
       },
-      "below_dates": [],
+      "below_dates": [
+        "2026-09-22"
+      ],
       "low_alert": null,
-      "last_scan_date": "2026-09-21",
+      "last_scan_date": "2026-09-22",
       "provider": "tiingo"
     },
     "TRI": {
       "support": null,
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-09-21",
+      "last_scan_date": "2026-09-22",
       "provider": "tiingo"
     },
     "RELX": {
@@ -182,7 +184,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-09-21",
+      "last_scan_date": "2026-09-22",
       "provider": "tiingo"
     }
   }
