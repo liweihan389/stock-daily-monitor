@@ -1,13 +1,14 @@
 # 持仓股票
-TSLA
-NVDA
-ADBE
-DECK
-MSFT
+TSLA peers=GM,F,RIVN
+NVDA sector=SMH
+ADBE sector=IGV
+DECK peers=NKE,CROX,ONON
+MSFT sector=XLK
 LULU peers=DECK,NKE
-V
-TRI
-RELX
+V peers=MA,AXP
+TRI peers=SPGI,MCO,FDS
+RELX peers=TRI,SPGI,MCO
+SPGI peers=MCO,FDS,TRI
 
 # 候选池股票
 AAPL sector=XLK
