@@ -2,9 +2,14 @@ name: Tiingo daily scan
 
 on:
   schedule:
-    # Primary: 08:47 Asia/Shanghai, Tuesday through Saturday.
-    # Backup: 09:17 on the same days. Duplicate sessions are skipped by cloud_scan.py.
-    # Odd minutes reduce the chance of GitHub's busy-hour schedule delays or drops.
+    # Asia/Shanghai, Tuesday through Saturday: 06:47, 07:17, 07:47, 08:17, 08:47, 09:17.
+    # Before 08:00 Shanghai is the previous UTC day (Monday through Friday).
+    # Duplicate sessions are skipped by cloud_scan.py.
+    # Off-hour minutes reduce the chance of busy-hour schedule delays or drops.
+    - cron: "47 22 * * 1-5"
+    - cron: "17 23 * * 1-5"
+    - cron: "47 23 * * 1-5"
+    - cron: "17 0 * * 2-6"
     - cron: "47 0 * * 2-6"
     - cron: "17 1 * * 2-6"
   workflow_dispatch:
