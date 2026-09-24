@@ -169,7 +169,21 @@
       "provider": "tiingo"
     },
     "V": {
-      "support": null,
+      "support": {
+        "low": 358.71,
+        "high": 364.33,
+        "center": 361.52,
+        "evidence": [
+          {
+            "kind": "estimated_volume_cluster",
+            "center": 361.52,
+            "share_of_120d_volume": 0.075
+          }
+        ],
+        "confidence": "低",
+        "reason": "旧支撑连续两日收盘跌破后重算；现价落在估计成交密集区，但成交占比有限且下行20日均线位于上方，需观察止跌。",
+        "set_on": "2026-09-23"
+      },
       "below_dates": [],
       "low_alert": null,
       "last_scan_date": "2026-09-23",
@@ -223,7 +237,26 @@
       "provider": "tiingo"
     },
     "SPGI": {
-      "support": null,
+      "support": {
+        "low": 398.6,
+        "high": 409.02,
+        "center": 403.81,
+        "evidence": [
+          {
+            "kind": "estimated_volume_cluster",
+            "center": 406.41593571428587,
+            "share_of_120d_volume": 0.147
+          },
+          {
+            "kind": "estimated_volume_cluster",
+            "center": 401.20547500000015,
+            "share_of_120d_volume": 0.107
+          }
+        ],
+        "confidence": "中",
+        "reason": "两个相邻的近120日估计成交密集峰覆盖现价，成交占比较高；但主要均线位于上方且方向偏弱。",
+        "set_on": "2026-09-23"
+      },
       "below_dates": [],
       "low_alert": null,
       "last_scan_date": "2026-09-23",
