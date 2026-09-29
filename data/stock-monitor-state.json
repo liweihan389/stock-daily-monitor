@@ -24,7 +24,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-09-25",
+      "last_scan_date": "2026-09-28",
       "provider": "tiingo"
     },
     "LULU": {
@@ -45,7 +45,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-09-25",
+      "last_scan_date": "2026-09-28",
       "provider": "tiingo"
     },
     "TSLA": {
@@ -71,7 +71,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-09-25",
+      "last_scan_date": "2026-09-28",
       "provider": "tiingo"
     },
     "NVDA": {
@@ -102,7 +102,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-09-25",
+      "last_scan_date": "2026-09-28",
       "provider": "tiingo"
     },
     "ADBE": {
@@ -121,9 +121,11 @@
         "reason": "收盘落在近120日估计成交密集区内，但当日放量下跌且缺少均线汇合，需观察能否止跌。",
         "set_on": "2026-09-22"
       },
-      "below_dates": [],
+      "below_dates": [
+        "2026-09-28"
+      ],
       "low_alert": null,
-      "last_scan_date": "2026-09-25",
+      "last_scan_date": "2026-09-28",
       "provider": "tiingo"
     },
     "DECK": {
@@ -144,7 +146,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-09-25",
+      "last_scan_date": "2026-09-28",
       "provider": "tiingo"
     },
     "MSFT": {
@@ -165,7 +167,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-09-25",
+      "last_scan_date": "2026-09-28",
       "provider": "tiingo"
     },
     "V": {
@@ -186,7 +188,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-09-25",
+      "last_scan_date": "2026-09-28",
       "provider": "tiingo"
     },
     "TRI": {
@@ -207,7 +209,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-09-25",
+      "last_scan_date": "2026-09-28",
       "provider": "tiingo"
     },
     "RELX": {
@@ -233,7 +235,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-09-25",
+      "last_scan_date": "2026-09-28",
       "provider": "tiingo"
     },
     "SPGI": {
@@ -257,9 +259,11 @@
         "reason": "两个相邻的近120日估计成交密集峰覆盖现价，成交占比较高；但主要均线位于上方且方向偏弱。",
         "set_on": "2026-09-23"
       },
-      "below_dates": [],
+      "below_dates": [
+        "2026-09-28"
+      ],
       "low_alert": null,
-      "last_scan_date": "2026-09-25",
+      "last_scan_date": "2026-09-28",
       "provider": "tiingo"
     }
   }
