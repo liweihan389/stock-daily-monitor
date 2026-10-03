@@ -24,14 +24,19 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-01",
+      "last_scan_date": "2026-10-02",
       "provider": "tiingo"
     },
     "LULU": {
       "support": null,
       "below_dates": [],
-      "low_alert": null,
-      "last_scan_date": "2026-10-01",
+      "low_alert": {
+        "date": "2026-10-02",
+        "horizon": 252,
+        "close": 94.46,
+        "provider": "tiingo"
+      },
+      "last_scan_date": "2026-10-02",
       "provider": "tiingo"
     },
     "TSLA": {
@@ -55,11 +60,9 @@
         "reason": "20日上行均线与估计成交密集区汇合；现价已回到其上，但近期曾在下方交易，尚待回踩确认。",
         "set_on": "2026-09-21"
       },
-      "below_dates": [
-        "2026-10-01"
-      ],
+      "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-01",
+      "last_scan_date": "2026-10-02",
       "provider": "tiingo"
     },
     "NVDA": {
@@ -90,14 +93,14 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-01",
+      "last_scan_date": "2026-10-02",
       "provider": "tiingo"
     },
     "ADBE": {
       "support": null,
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-01",
+      "last_scan_date": "2026-10-02",
       "provider": "tiingo"
     },
     "DECK": {
@@ -118,7 +121,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-01",
+      "last_scan_date": "2026-10-02",
       "provider": "tiingo"
     },
     "MSFT": {
@@ -139,7 +142,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-01",
+      "last_scan_date": "2026-10-02",
       "provider": "tiingo"
     },
     "V": {
@@ -160,7 +163,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-01",
+      "last_scan_date": "2026-10-02",
       "provider": "tiingo"
     },
     "TRI": {
@@ -181,7 +184,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-01",
+      "last_scan_date": "2026-10-02",
       "provider": "tiingo"
     },
     "RELX": {
@@ -207,14 +210,14 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-01",
+      "last_scan_date": "2026-10-02",
       "provider": "tiingo"
     },
     "SPGI": {
       "support": null,
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-01",
+      "last_scan_date": "2026-10-02",
       "provider": "tiingo"
     }
   }
