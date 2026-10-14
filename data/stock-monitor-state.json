@@ -97,7 +97,31 @@
       "provider": "tiingo"
     },
     "ADBE": {
-      "support": null,
+      "support": {
+        "low": 236,
+        "high": 243.66,
+        "center": 239.83,
+        "evidence": [
+          {
+            "kind": "estimated_volume_cluster",
+            "center": 241.52625000000012,
+            "share_of_120d_volume": 0.092
+          },
+          {
+            "kind": "ma20",
+            "center": 240.27275000000003,
+            "rising_5d": false
+          },
+          {
+            "kind": "estimated_volume_cluster",
+            "center": 237.6925000000001,
+            "share_of_120d_volume": 0.079
+          }
+        ],
+        "confidence": "低",
+        "reason": "收盘价位于候选区下沿，附近有两个日线估计成交密集区，但20日均线下行，历史止跌反应仍需观察。",
+        "set_on": "2026-10-13"
+      },
       "below_dates": [],
       "low_alert": null,
       "last_scan_date": "2026-10-13",
@@ -214,7 +238,21 @@
       "provider": "tiingo"
     },
     "SPGI": {
-      "support": null,
+      "support": {
+        "low": 406.09,
+        "high": 413.89,
+        "center": 409.99,
+        "evidence": [
+          {
+            "kind": "estimated_volume_cluster",
+            "center": 409.99,
+            "share_of_120d_volume": 0.095
+          }
+        ],
+        "confidence": "低",
+        "reason": "现价处于最近的日线估计成交密集区，但缺少上行均线汇合，且历史反应证据有限。",
+        "set_on": "2026-10-13"
+      },
       "below_dates": [],
       "low_alert": null,
       "last_scan_date": "2026-10-13",
