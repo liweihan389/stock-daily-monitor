@@ -24,7 +24,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-13",
+      "last_scan_date": "2026-10-14",
       "provider": "tiingo"
     },
     "LULU": {
@@ -36,7 +36,7 @@
         "close": 91.88,
         "provider": "tiingo"
       },
-      "last_scan_date": "2026-10-13",
+      "last_scan_date": "2026-10-14",
       "provider": "tiingo"
     },
     "TSLA": {
@@ -62,7 +62,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-13",
+      "last_scan_date": "2026-10-14",
       "provider": "tiingo"
     },
     "NVDA": {
@@ -93,7 +93,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-13",
+      "last_scan_date": "2026-10-14",
       "provider": "tiingo"
     },
     "ADBE": {
@@ -124,7 +124,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-13",
+      "last_scan_date": "2026-10-14",
       "provider": "tiingo"
     },
     "DECK": {
@@ -145,7 +145,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-13",
+      "last_scan_date": "2026-10-14",
       "provider": "tiingo"
     },
     "MSFT": {
@@ -166,7 +166,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-13",
+      "last_scan_date": "2026-10-14",
       "provider": "tiingo"
     },
     "V": {
@@ -187,7 +187,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-13",
+      "last_scan_date": "2026-10-14",
       "provider": "tiingo"
     },
     "TRI": {
@@ -208,7 +208,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-13",
+      "last_scan_date": "2026-10-14",
       "provider": "tiingo"
     },
     "RELX": {
@@ -234,7 +234,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-13",
+      "last_scan_date": "2026-10-14",
       "provider": "tiingo"
     },
     "SPGI": {
@@ -255,7 +255,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-13",
+      "last_scan_date": "2026-10-14",
       "provider": "tiingo"
     }
   }
