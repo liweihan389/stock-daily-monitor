@@ -1,309 +1,309 @@
 {
   "version": 1,
-  "created_at_utc": "2026-10-20T01:17:54.785963+00:00",
+  "created_at_utc": "2026-10-21T01:00:07.033907+00:00",
   "source": "Tiingo End-of-Day adjusted OHLCV",
   "provider": "tiingo",
   "list": "/home/runner/work/stock-daily-monitor/stock-daily-monitor/stock.txt",
   "dry_run": false,
   "benchmarks": {
     "AAPL": {
-      "date": "2026-10-19",
-      "previous_date": "2026-10-16",
-      "close": 342.94,
-      "previous_close": 343.46,
-      "return_pct": -0.15,
-      "high": 346.0,
-      "low": 340.12,
-      "volume": 34511192.0,
-      "volume_ratio_20d": 0.93,
+      "date": "2026-10-20",
+      "previous_date": "2026-10-19",
+      "close": 339.5,
+      "previous_close": 342.94,
+      "return_pct": -1.0,
+      "high": 343.06,
+      "low": 338.7,
+      "volume": 35626552.0,
+      "volume_ratio_20d": 0.96,
       "history_bars": 520
     },
     "ADBE": {
-      "date": "2026-10-19",
-      "previous_date": "2026-10-16",
-      "close": 247.09,
-      "previous_close": 245.2,
-      "return_pct": 0.77,
-      "high": 247.63,
-      "low": 241.51,
-      "volume": 2921145.0,
-      "volume_ratio_20d": 0.65,
+      "date": "2026-10-20",
+      "previous_date": "2026-10-19",
+      "close": 256.73,
+      "previous_close": 247.09,
+      "return_pct": 3.9,
+      "high": 256.78,
+      "low": 248.5,
+      "volume": 4275354.0,
+      "volume_ratio_20d": 0.98,
       "history_bars": 520
     },
     "AXP": {
-      "date": "2026-10-19",
-      "previous_date": "2026-10-16",
-      "close": 316.41,
-      "previous_close": 313.59,
-      "return_pct": 0.9,
-      "high": 317.04,
-      "low": 311.23,
-      "volume": 2791975.0,
-      "volume_ratio_20d": 0.84,
+      "date": "2026-10-20",
+      "previous_date": "2026-10-19",
+      "close": 318.34,
+      "previous_close": 316.41,
+      "return_pct": 0.61,
+      "high": 322.5,
+      "low": 315.89,
+      "volume": 3814694.0,
+      "volume_ratio_20d": 1.14,
       "history_bars": 520
     },
     "CROX": {
-      "date": "2026-10-19",
-      "previous_date": "2026-10-16",
-      "close": 120.18,
-      "previous_close": 123.14,
-      "return_pct": -2.4,
-      "high": 123.49,
-      "low": 118.51,
-      "volume": 834681.0,
-      "volume_ratio_20d": 0.79,
+      "date": "2026-10-20",
+      "previous_date": "2026-10-19",
+      "close": 121.37,
+      "previous_close": 120.18,
+      "return_pct": 0.99,
+      "high": 121.98,
+      "low": 119.02,
+      "volume": 721629.0,
+      "volume_ratio_20d": 0.7,
       "history_bars": 520
     },
     "DECK": {
-      "date": "2026-10-19",
-      "previous_date": "2026-10-16",
-      "close": 87.24,
-      "previous_close": 85.71,
-      "return_pct": 1.79,
-      "high": 88.4,
-      "low": 85.21,
-      "volume": 2639128.0,
-      "volume_ratio_20d": 0.87,
+      "date": "2026-10-20",
+      "previous_date": "2026-10-19",
+      "close": 87.37,
+      "previous_close": 87.24,
+      "return_pct": 0.15,
+      "high": 87.98,
+      "low": 86.68,
+      "volume": 2724507.0,
+      "volume_ratio_20d": 0.92,
       "history_bars": 520
     },
     "F": {
-      "date": "2026-10-19",
-      "previous_date": "2026-10-16",
-      "close": 12.18,
-      "previous_close": 12.43,
-      "return_pct": -2.01,
-      "high": 12.43,
-      "low": 12.13,
-      "volume": 30703979.0,
-      "volume_ratio_20d": 0.74,
-      "history_bars": 520
-    },
-    "FDS": {
-      "date": "2026-10-19",
-      "previous_date": "2026-10-16",
-      "close": 303.21,
-      "previous_close": 301.67,
-      "return_pct": 0.51,
-      "high": 303.95,
-      "low": 297.37,
-      "volume": 472128.0,
-      "volume_ratio_20d": 0.63,
-      "history_bars": 520
-    },
-    "GM": {
-      "date": "2026-10-19",
-      "previous_date": "2026-10-16",
-      "close": 82.75,
-      "previous_close": 83.96,
-      "return_pct": -1.44,
-      "high": 83.82,
-      "low": 82.34,
-      "volume": 7989332.0,
-      "volume_ratio_20d": 1.17,
-      "history_bars": 520
-    },
-    "IGV": {
-      "date": "2026-10-19",
-      "previous_date": "2026-10-16",
-      "close": 105.99,
-      "previous_close": 104.34,
-      "return_pct": 1.58,
-      "high": 106.53,
-      "low": 104.96,
-      "volume": 5766436.0,
-      "volume_ratio_20d": 0.76,
-      "history_bars": 520
-    },
-    "LULU": {
-      "date": "2026-10-19",
-      "previous_date": "2026-10-16",
-      "close": 97.76,
-      "previous_close": 97.1,
-      "return_pct": 0.68,
-      "high": 97.78,
-      "low": 95.75,
-      "volume": 3287152.0,
-      "volume_ratio_20d": 0.74,
-      "history_bars": 520
-    },
-    "MA": {
-      "date": "2026-10-19",
-      "previous_date": "2026-10-16",
-      "close": 616.4,
-      "previous_close": 617.42,
-      "return_pct": -0.17,
-      "high": 618.0,
-      "low": 608.59,
-      "volume": 2962083.0,
-      "volume_ratio_20d": 0.98,
-      "history_bars": 520
-    },
-    "MCO": {
-      "date": "2026-10-19",
-      "previous_date": "2026-10-16",
-      "close": 481.26,
-      "previous_close": 485.07,
-      "return_pct": -0.79,
-      "high": 483.0,
-      "low": 478.58,
-      "volume": 697954.0,
+      "date": "2026-10-20",
+      "previous_date": "2026-10-19",
+      "close": 12.15,
+      "previous_close": 12.18,
+      "return_pct": -0.25,
+      "high": 12.25,
+      "low": 11.81,
+      "volume": 34211976.0,
       "volume_ratio_20d": 0.85,
       "history_bars": 520
     },
+    "FDS": {
+      "date": "2026-10-20",
+      "previous_date": "2026-10-19",
+      "close": 312.27,
+      "previous_close": 303.21,
+      "return_pct": 2.99,
+      "high": 314.34,
+      "low": 307.76,
+      "volume": 802281.0,
+      "volume_ratio_20d": 1.08,
+      "history_bars": 520
+    },
+    "GM": {
+      "date": "2026-10-20",
+      "previous_date": "2026-10-19",
+      "close": 77.09,
+      "previous_close": 82.75,
+      "return_pct": -6.84,
+      "high": 78.97,
+      "low": 75.08,
+      "volume": 24605734.0,
+      "volume_ratio_20d": 3.59,
+      "history_bars": 520
+    },
+    "IGV": {
+      "date": "2026-10-20",
+      "previous_date": "2026-10-19",
+      "close": 106.93,
+      "previous_close": 105.99,
+      "return_pct": 0.89,
+      "high": 107.35,
+      "low": 105.04,
+      "volume": 4006071.0,
+      "volume_ratio_20d": 0.53,
+      "history_bars": 520
+    },
+    "LULU": {
+      "date": "2026-10-20",
+      "previous_date": "2026-10-19",
+      "close": 99.94,
+      "previous_close": 97.76,
+      "return_pct": 2.23,
+      "high": 100.0,
+      "low": 97.5,
+      "volume": 2327636.0,
+      "volume_ratio_20d": 0.54,
+      "history_bars": 520
+    },
+    "MA": {
+      "date": "2026-10-20",
+      "previous_date": "2026-10-19",
+      "close": 620.42,
+      "previous_close": 616.4,
+      "return_pct": 0.65,
+      "high": 624.29,
+      "low": 616.6,
+      "volume": 2995260.0,
+      "volume_ratio_20d": 0.99,
+      "history_bars": 520
+    },
+    "MCO": {
+      "date": "2026-10-20",
+      "previous_date": "2026-10-19",
+      "close": 475.35,
+      "previous_close": 481.26,
+      "return_pct": -1.23,
+      "high": 494.36,
+      "low": 474.76,
+      "volume": 1770212.0,
+      "volume_ratio_20d": 2.16,
+      "history_bars": 520
+    },
     "MSFT": {
-      "date": "2026-10-19",
-      "previous_date": "2026-10-16",
-      "close": 533.52,
-      "previous_close": 529.05,
-      "return_pct": 0.84,
-      "high": 535.57,
-      "low": 528.06,
-      "volume": 17443793.0,
-      "volume_ratio_20d": 0.78,
+      "date": "2026-10-20",
+      "previous_date": "2026-10-19",
+      "close": 531.87,
+      "previous_close": 533.52,
+      "return_pct": -0.31,
+      "high": 534.21,
+      "low": 525.84,
+      "volume": 14415062.0,
+      "volume_ratio_20d": 0.66,
       "history_bars": 520
     },
     "NKE": {
-      "date": "2026-10-19",
-      "previous_date": "2026-10-16",
-      "close": 37.21,
-      "previous_close": 37.13,
-      "return_pct": 0.22,
-      "high": 37.36,
-      "low": 36.72,
-      "volume": 17905924.0,
-      "volume_ratio_20d": 0.39,
+      "date": "2026-10-20",
+      "previous_date": "2026-10-19",
+      "close": 37.88,
+      "previous_close": 37.21,
+      "return_pct": 1.8,
+      "high": 38.14,
+      "low": 37.21,
+      "volume": 22857570.0,
+      "volume_ratio_20d": 0.51,
       "history_bars": 520
     },
     "NVDA": {
-      "date": "2026-10-19",
-      "previous_date": "2026-10-16",
-      "close": 217.09,
-      "previous_close": 214.13,
-      "return_pct": 1.38,
-      "high": 219.62,
-      "low": 214.7,
-      "volume": 98006003.0,
-      "volume_ratio_20d": 0.93,
+      "date": "2026-10-20",
+      "previous_date": "2026-10-19",
+      "close": 216.47,
+      "previous_close": 217.09,
+      "return_pct": -0.29,
+      "high": 218.46,
+      "low": 212.77,
+      "volume": 75998963.0,
+      "volume_ratio_20d": 0.73,
       "history_bars": 520
     },
     "ONON": {
-      "date": "2026-10-19",
-      "previous_date": "2026-10-16",
-      "close": 35.41,
-      "previous_close": 34.75,
-      "return_pct": 1.9,
-      "high": 35.86,
-      "low": 34.45,
-      "volume": 7230166.0,
-      "volume_ratio_20d": 0.58,
+      "date": "2026-10-20",
+      "previous_date": "2026-10-19",
+      "close": 35.42,
+      "previous_close": 35.41,
+      "return_pct": 0.03,
+      "high": 35.8,
+      "low": 35.3,
+      "volume": 6172414.0,
+      "volume_ratio_20d": 0.51,
       "history_bars": 520
     },
     "RELX": {
-      "date": "2026-10-19",
-      "previous_date": "2026-10-16",
-      "close": 39.25,
-      "previous_close": 39.06,
-      "return_pct": 0.49,
-      "high": 39.31,
-      "low": 38.88,
-      "volume": 1708368.0,
-      "volume_ratio_20d": 0.83,
+      "date": "2026-10-20",
+      "previous_date": "2026-10-19",
+      "close": 39.39,
+      "previous_close": 39.25,
+      "return_pct": 0.36,
+      "high": 39.58,
+      "low": 39.06,
+      "volume": 2178172.0,
+      "volume_ratio_20d": 1.05,
       "history_bars": 520
     },
     "RIVN": {
-      "date": "2026-10-19",
-      "previous_date": "2026-10-16",
-      "close": 12.34,
-      "previous_close": 12.42,
-      "return_pct": -0.64,
-      "high": 12.52,
-      "low": 12.16,
-      "volume": 19915633.0,
-      "volume_ratio_20d": 0.8,
+      "date": "2026-10-20",
+      "previous_date": "2026-10-19",
+      "close": 12.43,
+      "previous_close": 12.34,
+      "return_pct": 0.73,
+      "high": 12.57,
+      "low": 12.21,
+      "volume": 18427037.0,
+      "volume_ratio_20d": 0.74,
       "history_bars": 520
     },
     "SMH": {
-      "date": "2026-10-19",
-      "previous_date": "2026-10-16",
-      "close": 548.46,
-      "previous_close": 539.79,
-      "return_pct": 1.61,
-      "high": 558.56,
-      "low": 547.44,
-      "volume": 8136919.0,
-      "volume_ratio_20d": 1.06,
+      "date": "2026-10-20",
+      "previous_date": "2026-10-19",
+      "close": 546.36,
+      "previous_close": 548.46,
+      "return_pct": -0.38,
+      "high": 553.83,
+      "low": 536.23,
+      "volume": 7319330.0,
+      "volume_ratio_20d": 0.96,
       "history_bars": 520
     },
     "SPGI": {
-      "date": "2026-10-19",
-      "previous_date": "2026-10-16",
-      "close": 427.83,
-      "previous_close": 429.64,
-      "return_pct": -0.42,
-      "high": 429.5,
-      "low": 422.43,
-      "volume": 1285831.0,
-      "volume_ratio_20d": 0.69,
+      "date": "2026-10-20",
+      "previous_date": "2026-10-19",
+      "close": 438.12,
+      "previous_close": 427.83,
+      "return_pct": 2.41,
+      "high": 439.45,
+      "low": 432.0,
+      "volume": 1797633.0,
+      "volume_ratio_20d": 0.97,
       "history_bars": 520
     },
     "SPY": {
-      "date": "2026-10-19",
-      "previous_date": "2026-10-16",
-      "close": 766.48,
-      "previous_close": 763.25,
-      "return_pct": 0.42,
-      "high": 770.46,
-      "low": 765.82,
-      "volume": 36766406.0,
-      "volume_ratio_20d": 0.88,
+      "date": "2026-10-20",
+      "previous_date": "2026-10-19",
+      "close": 769.05,
+      "previous_close": 766.48,
+      "return_pct": 0.34,
+      "high": 772.29,
+      "low": 764.25,
+      "volume": 32501936.0,
+      "volume_ratio_20d": 0.79,
       "history_bars": 520
     },
     "TRI": {
-      "date": "2026-10-19",
-      "previous_date": "2026-10-16",
-      "close": 108.23,
-      "previous_close": 109.01,
-      "return_pct": -0.72,
-      "high": 109.42,
-      "low": 107.22,
-      "volume": 1563322.0,
-      "volume_ratio_20d": 1.12,
+      "date": "2026-10-20",
+      "previous_date": "2026-10-19",
+      "close": 112.82,
+      "previous_close": 108.23,
+      "return_pct": 4.24,
+      "high": 113.13,
+      "low": 109.37,
+      "volume": 2061446.0,
+      "volume_ratio_20d": 1.47,
       "history_bars": 520
     },
     "TSLA": {
-      "date": "2026-10-19",
-      "previous_date": "2026-10-16",
-      "close": 368.06,
-      "previous_close": 354.72,
-      "return_pct": 3.76,
-      "high": 369.58,
-      "low": 354.47,
-      "volume": 38817910.0,
-      "volume_ratio_20d": 1.13,
+      "date": "2026-10-20",
+      "previous_date": "2026-10-19",
+      "close": 373.71,
+      "previous_close": 368.06,
+      "return_pct": 1.54,
+      "high": 377.59,
+      "low": 363.64,
+      "volume": 30632792.0,
+      "volume_ratio_20d": 0.89,
       "history_bars": 520
     },
     "V": {
-      "date": "2026-10-19",
-      "previous_date": "2026-10-16",
-      "close": 402.92,
-      "previous_close": 402.61,
-      "return_pct": 0.08,
-      "high": 403.79,
-      "low": 398.01,
-      "volume": 5823303.0,
-      "volume_ratio_20d": 0.98,
+      "date": "2026-10-20",
+      "previous_date": "2026-10-19",
+      "close": 406.57,
+      "previous_close": 402.92,
+      "return_pct": 0.91,
+      "high": 408.59,
+      "low": 403.39,
+      "volume": 6707367.0,
+      "volume_ratio_20d": 1.14,
       "history_bars": 520
     },
     "XLK": {
-      "date": "2026-10-19",
-      "previous_date": "2026-10-16",
-      "close": 185.96,
-      "previous_close": 183.47,
-      "return_pct": 1.36,
-      "high": 188.02,
-      "low": 185.61,
-      "volume": 9075406.0,
-      "volume_ratio_20d": 1.1,
+      "date": "2026-10-20",
+      "previous_date": "2026-10-19",
+      "close": 185.44,
+      "previous_close": 185.96,
+      "return_pct": -0.28,
+      "high": 187.05,
+      "low": 182.81,
+      "volume": 9173237.0,
+      "volume_ratio_20d": 1.11,
       "history_bars": 520
     }
   },
@@ -319,20 +319,20 @@
       ],
       "status": "ok",
       "daily": {
-        "date": "2026-10-19",
-        "previous_date": "2026-10-16",
-        "close": 368.06,
-        "previous_close": 354.72,
-        "return_pct": 3.76,
-        "high": 369.58,
-        "low": 354.47,
-        "volume": 38817910.0,
-        "volume_ratio_20d": 1.13,
+        "date": "2026-10-20",
+        "previous_date": "2026-10-19",
+        "close": 373.71,
+        "previous_close": 368.06,
+        "return_pct": 1.54,
+        "high": 377.59,
+        "low": 363.64,
+        "volume": 30632792.0,
+        "volume_ratio_20d": 0.89,
         "history_bars": 520
       },
       "market_ticker": "SPY",
-      "market_return_pct": 0.42,
-      "market_gap_pp": 3.34,
+      "market_return_pct": 0.34,
+      "market_gap_pp": 1.2,
       "benchmark_type": "peer_equal_weight",
       "benchmark_symbols": [
         "GM",
@@ -342,19 +342,19 @@
       "benchmark_components": [
         {
           "ticker": "GM",
-          "return_pct": -1.44
+          "return_pct": -6.84
         },
         {
           "ticker": "F",
-          "return_pct": -2.01
+          "return_pct": -0.25
         },
         {
           "ticker": "RIVN",
-          "return_pct": -0.64
+          "return_pct": 0.73
         }
       ],
-      "benchmark_return_pct": -1.36,
-      "benchmark_gap_pp": 5.12,
+      "benchmark_return_pct": -2.12,
+      "benchmark_gap_pp": 3.66,
       "benchmark_complete": true,
       "support": {
         "low": 354.27,
@@ -382,7 +382,6 @@
       "below_dates": [],
       "support_candidates": [],
       "research": [
-        "absolute_move",
         "peer_relative_move",
         "support_event"
       ]
@@ -393,20 +392,20 @@
       "sector": "SMH",
       "status": "ok",
       "daily": {
-        "date": "2026-10-19",
-        "previous_date": "2026-10-16",
-        "close": 217.09,
-        "previous_close": 214.13,
-        "return_pct": 1.38,
-        "high": 219.62,
-        "low": 214.7,
-        "volume": 98006003.0,
-        "volume_ratio_20d": 0.93,
+        "date": "2026-10-20",
+        "previous_date": "2026-10-19",
+        "close": 216.47,
+        "previous_close": 217.09,
+        "return_pct": -0.29,
+        "high": 218.46,
+        "low": 212.77,
+        "volume": 75998963.0,
+        "volume_ratio_20d": 0.73,
         "history_bars": 520
       },
       "market_ticker": "SPY",
-      "market_return_pct": 0.42,
-      "market_gap_pp": 0.96,
+      "market_return_pct": 0.34,
+      "market_gap_pp": -0.63,
       "benchmark_type": "sector_etf",
       "benchmark_symbols": [
         "SMH"
@@ -414,11 +413,11 @@
       "benchmark_components": [
         {
           "ticker": "SMH",
-          "return_pct": 1.61
+          "return_pct": -0.38
         }
       ],
-      "benchmark_return_pct": 1.61,
-      "benchmark_gap_pp": -0.23,
+      "benchmark_return_pct": -0.38,
+      "benchmark_gap_pp": 0.09,
       "benchmark_complete": true,
       "support": {
         "low": 216.24,
@@ -460,20 +459,20 @@
       "sector": "IGV",
       "status": "ok",
       "daily": {
-        "date": "2026-10-19",
-        "previous_date": "2026-10-16",
-        "close": 247.09,
-        "previous_close": 245.2,
-        "return_pct": 0.77,
-        "high": 247.63,
-        "low": 241.51,
-        "volume": 2921145.0,
-        "volume_ratio_20d": 0.65,
+        "date": "2026-10-20",
+        "previous_date": "2026-10-19",
+        "close": 256.73,
+        "previous_close": 247.09,
+        "return_pct": 3.9,
+        "high": 256.78,
+        "low": 248.5,
+        "volume": 4275354.0,
+        "volume_ratio_20d": 0.98,
         "history_bars": 520
       },
       "market_ticker": "SPY",
-      "market_return_pct": 0.42,
-      "market_gap_pp": 0.35,
+      "market_return_pct": 0.34,
+      "market_gap_pp": 3.56,
       "benchmark_type": "sector_etf",
       "benchmark_symbols": [
         "IGV"
@@ -481,11 +480,11 @@
       "benchmark_components": [
         {
           "ticker": "IGV",
-          "return_pct": 1.58
+          "return_pct": 0.89
         }
       ],
-      "benchmark_return_pct": 1.58,
-      "benchmark_gap_pp": -0.81,
+      "benchmark_return_pct": 0.89,
+      "benchmark_gap_pp": 3.01,
       "benchmark_complete": true,
       "support": {
         "low": 236,
@@ -512,13 +511,14 @@
         "reason": "收盘价位于候选区下沿，附近有两个日线估计成交密集区，但20日均线下行，历史止跌反应仍需观察。",
         "set_on": "2026-10-13"
       },
-      "support_status": "touched",
+      "support_status": "above",
       "support_recalculation_reason": null,
       "stage_low": null,
       "below_dates": [],
       "support_candidates": [],
       "research": [
-        "support_event"
+        "absolute_move",
+        "sector_relative_move"
       ]
     },
     {
@@ -531,20 +531,20 @@
       ],
       "status": "ok",
       "daily": {
-        "date": "2026-10-19",
-        "previous_date": "2026-10-16",
-        "close": 87.24,
-        "previous_close": 85.71,
-        "return_pct": 1.79,
-        "high": 88.4,
-        "low": 85.21,
-        "volume": 2639128.0,
-        "volume_ratio_20d": 0.87,
+        "date": "2026-10-20",
+        "previous_date": "2026-10-19",
+        "close": 87.37,
+        "previous_close": 87.24,
+        "return_pct": 0.15,
+        "high": 87.98,
+        "low": 86.68,
+        "volume": 2724507.0,
+        "volume_ratio_20d": 0.92,
         "history_bars": 520
       },
       "market_ticker": "SPY",
-      "market_return_pct": 0.42,
-      "market_gap_pp": 1.37,
+      "market_return_pct": 0.34,
+      "market_gap_pp": -0.19,
       "benchmark_type": "peer_equal_weight",
       "benchmark_symbols": [
         "NKE",
@@ -554,19 +554,19 @@
       "benchmark_components": [
         {
           "ticker": "NKE",
-          "return_pct": 0.22
+          "return_pct": 1.8
         },
         {
           "ticker": "CROX",
-          "return_pct": -2.4
+          "return_pct": 0.99
         },
         {
           "ticker": "ONON",
-          "return_pct": 1.9
+          "return_pct": 0.03
         }
       ],
-      "benchmark_return_pct": -0.09,
-      "benchmark_gap_pp": 1.88,
+      "benchmark_return_pct": 0.94,
+      "benchmark_gap_pp": -0.79,
       "benchmark_complete": true,
       "support": {
         "low": 77.51,
@@ -596,20 +596,20 @@
       "sector": "XLK",
       "status": "ok",
       "daily": {
-        "date": "2026-10-19",
-        "previous_date": "2026-10-16",
-        "close": 533.52,
-        "previous_close": 529.05,
-        "return_pct": 0.84,
-        "high": 535.57,
-        "low": 528.06,
-        "volume": 17443793.0,
-        "volume_ratio_20d": 0.78,
+        "date": "2026-10-20",
+        "previous_date": "2026-10-19",
+        "close": 531.87,
+        "previous_close": 533.52,
+        "return_pct": -0.31,
+        "high": 534.21,
+        "low": 525.84,
+        "volume": 14415062.0,
+        "volume_ratio_20d": 0.66,
         "history_bars": 520
       },
       "market_ticker": "SPY",
-      "market_return_pct": 0.42,
-      "market_gap_pp": 0.42,
+      "market_return_pct": 0.34,
+      "market_gap_pp": -0.65,
       "benchmark_type": "sector_etf",
       "benchmark_symbols": [
         "XLK"
@@ -617,11 +617,11 @@
       "benchmark_components": [
         {
           "ticker": "XLK",
-          "return_pct": 1.36
+          "return_pct": -0.28
         }
       ],
-      "benchmark_return_pct": 1.36,
-      "benchmark_gap_pp": -0.52,
+      "benchmark_return_pct": -0.28,
+      "benchmark_gap_pp": -0.03,
       "benchmark_complete": true,
       "support": {
         "low": 493.75,
@@ -654,20 +654,20 @@
       ],
       "status": "ok",
       "daily": {
-        "date": "2026-10-19",
-        "previous_date": "2026-10-16",
-        "close": 97.76,
-        "previous_close": 97.1,
-        "return_pct": 0.68,
-        "high": 97.78,
-        "low": 95.75,
-        "volume": 3287152.0,
-        "volume_ratio_20d": 0.74,
+        "date": "2026-10-20",
+        "previous_date": "2026-10-19",
+        "close": 99.94,
+        "previous_close": 97.76,
+        "return_pct": 2.23,
+        "high": 100.0,
+        "low": 97.5,
+        "volume": 2327636.0,
+        "volume_ratio_20d": 0.54,
         "history_bars": 520
       },
       "market_ticker": "SPY",
-      "market_return_pct": 0.42,
-      "market_gap_pp": 0.26,
+      "market_return_pct": 0.34,
+      "market_gap_pp": 1.89,
       "benchmark_type": "peer_equal_weight",
       "benchmark_symbols": [
         "DECK",
@@ -676,15 +676,15 @@
       "benchmark_components": [
         {
           "ticker": "DECK",
-          "return_pct": 1.79
+          "return_pct": 0.15
         },
         {
           "ticker": "NKE",
-          "return_pct": 0.22
+          "return_pct": 1.8
         }
       ],
-      "benchmark_return_pct": 1.01,
-      "benchmark_gap_pp": -0.33,
+      "benchmark_return_pct": 0.97,
+      "benchmark_gap_pp": 1.26,
       "benchmark_complete": true,
       "support": {
         "low": 96.02,
@@ -706,7 +706,7 @@
         "reason": "收盘重新站回候选区，20日均线与日线估计成交密集区重合；但均线仍下行、成交集中度有限，需观察后续回踩。",
         "set_on": "2026-10-15"
       },
-      "support_status": "intraday_below_recovered",
+      "support_status": "touched",
       "support_recalculation_reason": null,
       "stage_low": null,
       "below_dates": [],
@@ -724,20 +724,20 @@
       ],
       "status": "ok",
       "daily": {
-        "date": "2026-10-19",
-        "previous_date": "2026-10-16",
-        "close": 402.92,
-        "previous_close": 402.61,
-        "return_pct": 0.08,
-        "high": 403.79,
-        "low": 398.01,
-        "volume": 5823303.0,
-        "volume_ratio_20d": 0.98,
+        "date": "2026-10-20",
+        "previous_date": "2026-10-19",
+        "close": 406.57,
+        "previous_close": 402.92,
+        "return_pct": 0.91,
+        "high": 408.59,
+        "low": 403.39,
+        "volume": 6707367.0,
+        "volume_ratio_20d": 1.14,
         "history_bars": 520
       },
       "market_ticker": "SPY",
-      "market_return_pct": 0.42,
-      "market_gap_pp": -0.34,
+      "market_return_pct": 0.34,
+      "market_gap_pp": 0.57,
       "benchmark_type": "peer_equal_weight",
       "benchmark_symbols": [
         "MA",
@@ -746,15 +746,15 @@
       "benchmark_components": [
         {
           "ticker": "MA",
-          "return_pct": -0.17
+          "return_pct": 0.65
         },
         {
           "ticker": "AXP",
-          "return_pct": 0.9
+          "return_pct": 0.61
         }
       ],
-      "benchmark_return_pct": 0.36,
-      "benchmark_gap_pp": -0.28,
+      "benchmark_return_pct": 0.63,
+      "benchmark_gap_pp": 0.28,
       "benchmark_complete": true,
       "support": {
         "low": 358.71,
@@ -788,20 +788,20 @@
       ],
       "status": "ok",
       "daily": {
-        "date": "2026-10-19",
-        "previous_date": "2026-10-16",
-        "close": 108.23,
-        "previous_close": 109.01,
-        "return_pct": -0.72,
-        "high": 109.42,
-        "low": 107.22,
-        "volume": 1563322.0,
-        "volume_ratio_20d": 1.12,
+        "date": "2026-10-20",
+        "previous_date": "2026-10-19",
+        "close": 112.82,
+        "previous_close": 108.23,
+        "return_pct": 4.24,
+        "high": 113.13,
+        "low": 109.37,
+        "volume": 2061446.0,
+        "volume_ratio_20d": 1.47,
         "history_bars": 520
       },
       "market_ticker": "SPY",
-      "market_return_pct": 0.42,
-      "market_gap_pp": -1.14,
+      "market_return_pct": 0.34,
+      "market_gap_pp": 3.9,
       "benchmark_type": "peer_equal_weight",
       "benchmark_symbols": [
         "SPGI",
@@ -811,19 +811,19 @@
       "benchmark_components": [
         {
           "ticker": "SPGI",
-          "return_pct": -0.42
+          "return_pct": 2.41
         },
         {
           "ticker": "MCO",
-          "return_pct": -0.79
+          "return_pct": -1.23
         },
         {
           "ticker": "FDS",
-          "return_pct": 0.51
+          "return_pct": 2.99
         }
       ],
-      "benchmark_return_pct": -0.23,
-      "benchmark_gap_pp": -0.49,
+      "benchmark_return_pct": 1.39,
+      "benchmark_gap_pp": 2.85,
       "benchmark_complete": true,
       "support": {
         "low": 92.5,
@@ -845,7 +845,10 @@
       "stage_low": null,
       "below_dates": [],
       "support_candidates": [],
-      "research": []
+      "research": [
+        "absolute_move",
+        "peer_relative_move"
+      ]
     },
     {
       "ticker": "RELX",
@@ -857,20 +860,20 @@
       ],
       "status": "ok",
       "daily": {
-        "date": "2026-10-19",
-        "previous_date": "2026-10-16",
-        "close": 39.25,
-        "previous_close": 39.06,
-        "return_pct": 0.49,
-        "high": 39.31,
-        "low": 38.88,
-        "volume": 1708368.0,
-        "volume_ratio_20d": 0.83,
+        "date": "2026-10-20",
+        "previous_date": "2026-10-19",
+        "close": 39.39,
+        "previous_close": 39.25,
+        "return_pct": 0.36,
+        "high": 39.58,
+        "low": 39.06,
+        "volume": 2178172.0,
+        "volume_ratio_20d": 1.05,
         "history_bars": 520
       },
       "market_ticker": "SPY",
-      "market_return_pct": 0.42,
-      "market_gap_pp": 0.07,
+      "market_return_pct": 0.34,
+      "market_gap_pp": 0.02,
       "benchmark_type": "peer_equal_weight",
       "benchmark_symbols": [
         "TRI",
@@ -880,19 +883,19 @@
       "benchmark_components": [
         {
           "ticker": "TRI",
-          "return_pct": -0.72
+          "return_pct": 4.24
         },
         {
           "ticker": "SPGI",
-          "return_pct": -0.42
+          "return_pct": 2.41
         },
         {
           "ticker": "MCO",
-          "return_pct": -0.79
+          "return_pct": -1.23
         }
       ],
-      "benchmark_return_pct": -0.64,
-      "benchmark_gap_pp": 1.13,
+      "benchmark_return_pct": 1.81,
+      "benchmark_gap_pp": -1.45,
       "benchmark_complete": true,
       "support": {
         "low": 32.2,
@@ -931,20 +934,20 @@
       ],
       "status": "ok",
       "daily": {
-        "date": "2026-10-19",
-        "previous_date": "2026-10-16",
-        "close": 427.83,
-        "previous_close": 429.64,
-        "return_pct": -0.42,
-        "high": 429.5,
-        "low": 422.43,
-        "volume": 1285831.0,
-        "volume_ratio_20d": 0.69,
+        "date": "2026-10-20",
+        "previous_date": "2026-10-19",
+        "close": 438.12,
+        "previous_close": 427.83,
+        "return_pct": 2.41,
+        "high": 439.45,
+        "low": 432.0,
+        "volume": 1797633.0,
+        "volume_ratio_20d": 0.97,
         "history_bars": 520
       },
       "market_ticker": "SPY",
-      "market_return_pct": 0.42,
-      "market_gap_pp": -0.84,
+      "market_return_pct": 0.34,
+      "market_gap_pp": 2.07,
       "benchmark_type": "peer_equal_weight",
       "benchmark_symbols": [
         "MCO",
@@ -954,19 +957,19 @@
       "benchmark_components": [
         {
           "ticker": "MCO",
-          "return_pct": -0.79
+          "return_pct": -1.23
         },
         {
           "ticker": "FDS",
-          "return_pct": 0.51
+          "return_pct": 2.99
         },
         {
           "ticker": "TRI",
-          "return_pct": -0.72
+          "return_pct": 4.24
         }
       ],
-      "benchmark_return_pct": -0.33,
-      "benchmark_gap_pp": -0.09,
+      "benchmark_return_pct": 2.0,
+      "benchmark_gap_pp": 0.41,
       "benchmark_complete": true,
       "support": {
         "low": 406.09,
@@ -996,20 +999,20 @@
       "sector": "XLK",
       "status": "ok",
       "daily": {
-        "date": "2026-10-19",
-        "previous_date": "2026-10-16",
-        "close": 342.94,
-        "previous_close": 343.46,
-        "return_pct": -0.15,
-        "high": 346.0,
-        "low": 340.12,
-        "volume": 34511192.0,
-        "volume_ratio_20d": 0.93,
+        "date": "2026-10-20",
+        "previous_date": "2026-10-19",
+        "close": 339.5,
+        "previous_close": 342.94,
+        "return_pct": -1.0,
+        "high": 343.06,
+        "low": 338.7,
+        "volume": 35626552.0,
+        "volume_ratio_20d": 0.96,
         "history_bars": 520
       },
       "market_ticker": "SPY",
-      "market_return_pct": 0.42,
-      "market_gap_pp": -0.57,
+      "market_return_pct": 0.34,
+      "market_gap_pp": -1.34,
       "benchmark_type": "sector_etf",
       "benchmark_symbols": [
         "XLK"
@@ -1017,11 +1020,11 @@
       "benchmark_components": [
         {
           "ticker": "XLK",
-          "return_pct": 1.36
+          "return_pct": -0.28
         }
       ],
-      "benchmark_return_pct": 1.36,
-      "benchmark_gap_pp": -1.51,
+      "benchmark_return_pct": -0.28,
+      "benchmark_gap_pp": -0.72,
       "benchmark_complete": true,
       "support": {
         "low": 318.53,
