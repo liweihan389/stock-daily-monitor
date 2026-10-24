@@ -85,7 +85,26 @@
       "provider": "tiingo"
     },
     "NVDA": {
-      "support": null,
+      "support": {
+        "low": 207.72,
+        "high": 213.7,
+        "center": 210.71,
+        "evidence": [
+          {
+            "kind": "estimated_volume_cluster",
+            "center": 212.20327857142857,
+            "share_of_120d_volume": 0.081
+          },
+          {
+            "kind": "estimated_volume_cluster",
+            "center": 209.21450000000002,
+            "share_of_120d_volume": 0.13
+          }
+        ],
+        "confidence": "中",
+        "reason": "两个日线估计成交密集区在约209–212美元重合，现价位于区间内；但缺少均线汇合且刚经历旧支撑连续破位，需观察后续反应。",
+        "set_on": "2026-10-23"
+      },
       "below_dates": [],
       "low_alert": null,
       "last_scan_date": "2026-10-23",
