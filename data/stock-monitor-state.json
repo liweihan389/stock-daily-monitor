@@ -24,7 +24,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-22",
+      "last_scan_date": "2026-10-23",
       "provider": "tiingo"
     },
     "LULU": {
@@ -55,7 +55,7 @@
         "close": 91.88,
         "provider": "tiingo"
       },
-      "last_scan_date": "2026-10-22",
+      "last_scan_date": "2026-10-23",
       "provider": "tiingo"
     },
     "TSLA": {
@@ -81,40 +81,14 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-22",
+      "last_scan_date": "2026-10-23",
       "provider": "tiingo"
     },
     "NVDA": {
-      "support": {
-        "low": 216.24,
-        "high": 222.29,
-        "center": 219.27,
-        "evidence": [
-          {
-            "kind": "estimated_volume_cluster",
-            "center": 220.72955204818203,
-            "share_of_120d_volume": 0.088
-          },
-          {
-            "kind": "ma20",
-            "center": 219.36011397009003,
-            "rising_5d": true
-          },
-          {
-            "kind": "estimated_volume_cluster",
-            "center": 217.70585955437133,
-            "share_of_120d_volume": 0.089
-          }
-        ],
-        "confidence": "中",
-        "reason": "20日上行均线与两个估计成交密集区汇合，现价在其上；近期多次穿越，支撑力度需观察。",
-        "set_on": "2026-09-21"
-      },
-      "below_dates": [
-        "2026-10-22"
-      ],
+      "support": null,
+      "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-22",
+      "last_scan_date": "2026-10-23",
       "provider": "tiingo"
     },
     "ADBE": {
@@ -145,7 +119,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-22",
+      "last_scan_date": "2026-10-23",
       "provider": "tiingo"
     },
     "DECK": {
@@ -166,7 +140,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-22",
+      "last_scan_date": "2026-10-23",
       "provider": "tiingo"
     },
     "MSFT": {
@@ -187,7 +161,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-22",
+      "last_scan_date": "2026-10-23",
       "provider": "tiingo"
     },
     "V": {
@@ -208,7 +182,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-22",
+      "last_scan_date": "2026-10-23",
       "provider": "tiingo"
     },
     "TRI": {
@@ -229,7 +203,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-22",
+      "last_scan_date": "2026-10-23",
       "provider": "tiingo"
     },
     "RELX": {
@@ -255,7 +229,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-22",
+      "last_scan_date": "2026-10-23",
       "provider": "tiingo"
     },
     "SPGI": {
@@ -276,7 +250,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-22",
+      "last_scan_date": "2026-10-23",
       "provider": "tiingo"
     }
   }
