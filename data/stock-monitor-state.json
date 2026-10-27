@@ -273,7 +273,27 @@
       "provider": "tiingo"
     },
     "INTC": {
-      "support": null,
+      "support": {
+        "low": 83.35,
+        "high": 88.76,
+        "center": 86.06,
+        "evidence": [
+          {
+            "kind": "ma200",
+            "center": 86.057575,
+            "rising_5d": true
+          },
+          {
+            "kind": "historical_reaction",
+            "date": "2026-10-26",
+            "low": 86.46,
+            "close": 90.47
+          }
+        ],
+        "confidence": "中",
+        "reason": "上行200日均线位于约86.06美元，且10月26日盘中低点86.46美元触及该区域后收于90.47美元；已有一次明确日线反应，但尚缺成交密集区汇合，后续仍需回踩确认。",
+        "set_on": "2026-10-26"
+      },
       "below_dates": [],
       "low_alert": null,
       "last_scan_date": "2026-10-26",
