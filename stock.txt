@@ -9,6 +9,7 @@ V peers=MA,AXP
 TRI peers=SPGI,MCO,FDS
 RELX peers=TRI,SPGI,MCO
 SPGI peers=MCO,FDS,TRI
+INTC sector=SMH
 
 # 候选池股票
 AAPL sector=XLK
