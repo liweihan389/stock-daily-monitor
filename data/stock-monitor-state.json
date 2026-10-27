@@ -271,6 +271,13 @@
       "low_alert": null,
       "last_scan_date": "2026-10-26",
       "provider": "tiingo"
+    },
+    "INTC": {
+      "support": null,
+      "below_dates": [],
+      "low_alert": null,
+      "last_scan_date": "2026-10-26",
+      "provider": "tiingo"
     }
   }
 }

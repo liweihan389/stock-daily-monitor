@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "created_at_utc": "2026-10-27T01:38:01.685706+00:00",
+  "created_at_utc": "2026-10-27T02:08:48.897219+00:00",
   "source": "Tiingo End-of-Day adjusted OHLCV",
   "provider": "tiingo",
   "list": "/home/runner/work/stock-daily-monitor/stock-daily-monitor/stock.txt",
@@ -26,8 +26,8 @@
       "return_pct": -1.97,
       "high": 263.35,
       "low": 254.06,
-      "volume": 3224275.0,
-      "volume_ratio_20d": 0.74,
+      "volume": 3338391.0,
+      "volume_ratio_20d": 0.77,
       "history_bars": 520
     },
     "AXP": {
@@ -38,8 +38,8 @@
       "return_pct": 0.58,
       "high": 318.54,
       "low": 312.03,
-      "volume": 3390415.0,
-      "volume_ratio_20d": 1.04,
+      "volume": 3478307.0,
+      "volume_ratio_20d": 1.07,
       "history_bars": 520
     },
     "CROX": {
@@ -86,7 +86,7 @@
       "return_pct": -2.39,
       "high": 331.67,
       "low": 320.43,
-      "volume": 637962.0,
+      "volume": 638267.0,
       "volume_ratio_20d": 0.84,
       "history_bars": 520
     },
@@ -114,6 +114,18 @@
       "volume_ratio_20d": 0.73,
       "history_bars": 520
     },
+    "INTC": {
+      "date": "2026-10-26",
+      "previous_date": "2026-10-23",
+      "close": 90.47,
+      "previous_close": 86.96,
+      "return_pct": 4.04,
+      "high": 92.09,
+      "low": 86.46,
+      "volume": 98744158.0,
+      "volume_ratio_20d": 1.01,
+      "history_bars": 520
+    },
     "LULU": {
       "date": "2026-10-26",
       "previous_date": "2026-10-23",
@@ -122,7 +134,7 @@
       "return_pct": 3.94,
       "high": 104.22,
       "low": 98.82,
-      "volume": 3551279.0,
+      "volume": 3580576.0,
       "volume_ratio_20d": 0.84,
       "history_bars": 520
     },
@@ -146,7 +158,7 @@
       "return_pct": 0.21,
       "high": 487.06,
       "low": 480.84,
-      "volume": 962786.0,
+      "volume": 962819.0,
       "volume_ratio_20d": 1.0,
       "history_bars": 520
     },
@@ -158,8 +170,8 @@
       "return_pct": 1.54,
       "high": 533.25,
       "low": 521.69,
-      "volume": 18066049.0,
-      "volume_ratio_20d": 0.89,
+      "volume": 19021036.0,
+      "volume_ratio_20d": 0.94,
       "history_bars": 520
     },
     "NKE": {
@@ -170,7 +182,7 @@
       "return_pct": 1.64,
       "high": 38.5,
       "low": 37.33,
-      "volume": 24399345.0,
+      "volume": 24447282.0,
       "volume_ratio_20d": 0.57,
       "history_bars": 520
     },
@@ -182,8 +194,8 @@
       "return_pct": 2.39,
       "high": 217.75,
       "low": 212.61,
-      "volume": 89953070.0,
-      "volume_ratio_20d": 0.85,
+      "volume": 90829293.0,
+      "volume_ratio_20d": 0.86,
       "history_bars": 520
     },
     "ONON": {
@@ -230,8 +242,8 @@
       "return_pct": 2.74,
       "high": 545.34,
       "low": 530.2,
-      "volume": 10072177.0,
-      "volume_ratio_20d": 1.21,
+      "volume": 10188230.0,
+      "volume_ratio_20d": 1.22,
       "history_bars": 520
     },
     "SPGI": {
@@ -242,8 +254,8 @@
       "return_pct": 0.08,
       "high": 455.79,
       "low": 446.86,
-      "volume": 2260468.0,
-      "volume_ratio_20d": 1.13,
+      "volume": 2373798.0,
+      "volume_ratio_20d": 1.19,
       "history_bars": 520
     },
     "SPY": {
@@ -399,8 +411,8 @@
         "return_pct": 2.39,
         "high": 217.75,
         "low": 212.61,
-        "volume": 89953070.0,
-        "volume_ratio_20d": 0.85,
+        "volume": 90829293.0,
+        "volume_ratio_20d": 0.86,
         "history_bars": 520
       },
       "market_ticker": "SPY",
@@ -461,8 +473,8 @@
         "return_pct": -1.97,
         "high": 263.35,
         "low": 254.06,
-        "volume": 3224275.0,
-        "volume_ratio_20d": 0.74,
+        "volume": 3338391.0,
+        "volume_ratio_20d": 0.77,
         "history_bars": 520
       },
       "market_ticker": "SPY",
@@ -600,8 +612,8 @@
         "return_pct": 1.54,
         "high": 533.25,
         "low": 521.69,
-        "volume": 18066049.0,
-        "volume_ratio_20d": 0.89,
+        "volume": 19021036.0,
+        "volume_ratio_20d": 0.94,
         "history_bars": 520
       },
       "market_ticker": "SPY",
@@ -658,7 +670,7 @@
         "return_pct": 3.94,
         "high": 104.22,
         "low": 98.82,
-        "volume": 3551279.0,
+        "volume": 3580576.0,
         "volume_ratio_20d": 0.84,
         "history_bars": 520
       },
@@ -937,8 +949,8 @@
         "return_pct": 0.08,
         "high": 455.79,
         "low": 446.86,
-        "volume": 2260468.0,
-        "volume_ratio_20d": 1.13,
+        "volume": 2373798.0,
+        "volume_ratio_20d": 1.19,
         "history_bars": 520
       },
       "market_ticker": "SPY",
@@ -988,6 +1000,84 @@
       "below_dates": [],
       "support_candidates": [],
       "research": []
+    },
+    {
+      "ticker": "INTC",
+      "group": "holding",
+      "sector": "SMH",
+      "status": "ok",
+      "daily": {
+        "date": "2026-10-26",
+        "previous_date": "2026-10-23",
+        "close": 90.47,
+        "previous_close": 86.96,
+        "return_pct": 4.04,
+        "high": 92.09,
+        "low": 86.46,
+        "volume": 98744158.0,
+        "volume_ratio_20d": 1.01,
+        "history_bars": 520
+      },
+      "market_ticker": "SPY",
+      "market_return_pct": 0.71,
+      "market_gap_pp": 3.33,
+      "benchmark_type": "sector_etf",
+      "benchmark_symbols": [
+        "SMH"
+      ],
+      "benchmark_components": [
+        {
+          "ticker": "SMH",
+          "return_pct": 2.74
+        }
+      ],
+      "benchmark_return_pct": 2.74,
+      "benchmark_gap_pp": 1.3,
+      "benchmark_complete": true,
+      "support": null,
+      "support_status": "uninitialized",
+      "support_recalculation_reason": null,
+      "stage_low": {
+        "status": "no_new_low",
+        "notify": false,
+        "previous_120d_low": 81.88,
+        "previous_252d_low": 33.62
+      },
+      "below_dates": [],
+      "support_candidates": [
+        {
+          "low": 89.22,
+          "high": 94.63,
+          "center": 91.92,
+          "evidence": [
+            {
+              "kind": "estimated_volume_cluster",
+              "center": 91.92252142857147,
+              "share_of_120d_volume": 0.077
+            }
+          ],
+          "program_rank": 2,
+          "atr14": 5.41
+        },
+        {
+          "low": 83.35,
+          "high": 88.76,
+          "center": 86.06,
+          "evidence": [
+            {
+              "kind": "ma200",
+              "center": 86.057575,
+              "rising_5d": true
+            }
+          ],
+          "program_rank": 1,
+          "atr14": 5.41
+        }
+      ],
+      "research": [
+        "absolute_move",
+        "support_review"
+      ]
     },
     {
       "ticker": "AAPL",
