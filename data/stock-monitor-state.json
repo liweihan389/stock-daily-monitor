@@ -24,7 +24,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-30",
+      "last_scan_date": "2026-11-02",
       "provider": "tiingo"
     },
     "LULU": {
@@ -55,7 +55,7 @@
         "close": 91.88,
         "provider": "tiingo"
       },
-      "last_scan_date": "2026-10-30",
+      "last_scan_date": "2026-11-02",
       "provider": "tiingo"
     },
     "TSLA": {
@@ -81,35 +81,14 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-30",
+      "last_scan_date": "2026-11-02",
       "provider": "tiingo"
     },
     "NVDA": {
-      "support": {
-        "low": 207.72,
-        "high": 213.7,
-        "center": 210.71,
-        "evidence": [
-          {
-            "kind": "estimated_volume_cluster",
-            "center": 212.20327857142857,
-            "share_of_120d_volume": 0.081
-          },
-          {
-            "kind": "estimated_volume_cluster",
-            "center": 209.21450000000002,
-            "share_of_120d_volume": 0.13
-          }
-        ],
-        "confidence": "中",
-        "reason": "两个日线估计成交密集区在约209–212美元重合，现价位于区间内；但缺少均线汇合且刚经历旧支撑连续破位，需观察后续反应。",
-        "set_on": "2026-10-23"
-      },
-      "below_dates": [
-        "2026-10-30"
-      ],
+      "support": null,
+      "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-30",
+      "last_scan_date": "2026-11-02",
       "provider": "tiingo"
     },
     "ADBE": {
@@ -140,7 +119,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-30",
+      "last_scan_date": "2026-11-02",
       "provider": "tiingo"
     },
     "DECK": {
@@ -161,7 +140,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-30",
+      "last_scan_date": "2026-11-02",
       "provider": "tiingo"
     },
     "MSFT": {
@@ -182,7 +161,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-30",
+      "last_scan_date": "2026-11-02",
       "provider": "tiingo"
     },
     "V": {
@@ -203,7 +182,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-30",
+      "last_scan_date": "2026-11-02",
       "provider": "tiingo"
     },
     "TRI": {
@@ -224,7 +203,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-30",
+      "last_scan_date": "2026-11-02",
       "provider": "tiingo"
     },
     "RELX": {
@@ -250,7 +229,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-30",
+      "last_scan_date": "2026-11-02",
       "provider": "tiingo"
     },
     "SPGI": {
@@ -271,36 +250,19 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-10-30",
+      "last_scan_date": "2026-11-02",
       "provider": "tiingo"
     },
     "INTC": {
-      "support": {
-        "low": 83.35,
-        "high": 88.76,
-        "center": 86.06,
-        "evidence": [
-          {
-            "kind": "ma200",
-            "center": 86.057575,
-            "rising_5d": true
-          },
-          {
-            "kind": "historical_reaction",
-            "date": "2026-10-26",
-            "low": 86.46,
-            "close": 90.47
-          }
-        ],
-        "confidence": "中",
-        "reason": "上行200日均线位于约86.06美元，且10月26日盘中低点86.46美元触及该区域后收于90.47美元；已有一次明确日线反应，但尚缺成交密集区汇合，后续仍需回踩确认。",
-        "set_on": "2026-10-26"
+      "support": null,
+      "below_dates": [],
+      "low_alert": {
+        "date": "2026-11-02",
+        "horizon": 120,
+        "close": 59.97,
+        "provider": "tiingo"
       },
-      "below_dates": [
-        "2026-10-30"
-      ],
-      "low_alert": null,
-      "last_scan_date": "2026-10-30",
+      "last_scan_date": "2026-11-02",
       "provider": "tiingo"
     }
   }
