@@ -24,7 +24,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-11-16",
+      "last_scan_date": "2026-11-17",
       "provider": "tiingo"
     },
     "LULU": {
@@ -55,7 +55,7 @@
         "close": 91.88,
         "provider": "tiingo"
       },
-      "last_scan_date": "2026-11-16",
+      "last_scan_date": "2026-11-17",
       "provider": "tiingo"
     },
     "TSLA": {
@@ -81,7 +81,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-11-16",
+      "last_scan_date": "2026-11-17",
       "provider": "tiingo"
     },
     "NVDA": {
@@ -93,7 +93,7 @@
         "close": 156.14,
         "provider": "tiingo"
       },
-      "last_scan_date": "2026-11-16",
+      "last_scan_date": "2026-11-17",
       "provider": "tiingo"
     },
     "ADBE": {
@@ -122,9 +122,11 @@
         "reason": "收盘价位于候选区下沿，附近有两个日线估计成交密集区，但20日均线下行，历史止跌反应仍需观察。",
         "set_on": "2026-10-13"
       },
-      "below_dates": [],
+      "below_dates": [
+        "2026-11-17"
+      ],
       "low_alert": null,
-      "last_scan_date": "2026-11-16",
+      "last_scan_date": "2026-11-17",
       "provider": "tiingo"
     },
     "DECK": {
@@ -145,7 +147,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-11-16",
+      "last_scan_date": "2026-11-17",
       "provider": "tiingo"
     },
     "MSFT": {
@@ -166,7 +168,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-11-16",
+      "last_scan_date": "2026-11-17",
       "provider": "tiingo"
     },
     "V": {
@@ -187,7 +189,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-11-16",
+      "last_scan_date": "2026-11-17",
       "provider": "tiingo"
     },
     "TRI": {
@@ -208,7 +210,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-11-16",
+      "last_scan_date": "2026-11-17",
       "provider": "tiingo"
     },
     "RELX": {
@@ -234,7 +236,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-11-16",
+      "last_scan_date": "2026-11-17",
       "provider": "tiingo"
     },
     "SPGI": {
@@ -255,7 +257,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-11-16",
+      "last_scan_date": "2026-11-17",
       "provider": "tiingo"
     },
     "INTC": {
@@ -267,7 +269,7 @@
         "close": 52.25,
         "provider": "tiingo"
       },
-      "last_scan_date": "2026-11-16",
+      "last_scan_date": "2026-11-17",
       "provider": "tiingo"
     }
   }
