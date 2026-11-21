@@ -24,7 +24,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-11-19",
+      "last_scan_date": "2026-11-20",
       "provider": "tiingo"
     },
     "LULU": {
@@ -55,7 +55,7 @@
         "close": 91.88,
         "provider": "tiingo"
       },
-      "last_scan_date": "2026-11-19",
+      "last_scan_date": "2026-11-20",
       "provider": "tiingo"
     },
     "TSLA": {
@@ -79,28 +79,30 @@
         "reason": "20日上行均线与估计成交密集区汇合；现价已回到其上，但近期曾在下方交易，尚待回踩确认。",
         "set_on": "2026-09-21"
       },
-      "below_dates": [],
+      "below_dates": [
+        "2026-11-20"
+      ],
       "low_alert": null,
-      "last_scan_date": "2026-11-19",
+      "last_scan_date": "2026-11-20",
       "provider": "tiingo"
     },
     "NVDA": {
       "support": null,
       "below_dates": [],
       "low_alert": {
-        "date": "2026-11-19",
+        "date": "2026-11-20",
         "horizon": 252,
-        "close": 145.98,
+        "close": 125.53,
         "provider": "tiingo"
       },
-      "last_scan_date": "2026-11-19",
+      "last_scan_date": "2026-11-20",
       "provider": "tiingo"
     },
     "ADBE": {
       "support": null,
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-11-19",
+      "last_scan_date": "2026-11-20",
       "provider": "tiingo"
     },
     "DECK": {
@@ -121,7 +123,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-11-19",
+      "last_scan_date": "2026-11-20",
       "provider": "tiingo"
     },
     "MSFT": {
@@ -140,9 +142,11 @@
         "reason": "现价位于上行20日均线候选区，但缺少成交密集区或更长期均线汇合。",
         "set_on": "2026-09-22"
       },
-      "below_dates": [],
+      "below_dates": [
+        "2026-11-20"
+      ],
       "low_alert": null,
-      "last_scan_date": "2026-11-19",
+      "last_scan_date": "2026-11-20",
       "provider": "tiingo"
     },
     "V": {
@@ -163,7 +167,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-11-19",
+      "last_scan_date": "2026-11-20",
       "provider": "tiingo"
     },
     "TRI": {
@@ -184,7 +188,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-11-19",
+      "last_scan_date": "2026-11-20",
       "provider": "tiingo"
     },
     "RELX": {
@@ -210,7 +214,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-11-19",
+      "last_scan_date": "2026-11-20",
       "provider": "tiingo"
     },
     "SPGI": {
@@ -231,7 +235,7 @@
       },
       "below_dates": [],
       "low_alert": null,
-      "last_scan_date": "2026-11-19",
+      "last_scan_date": "2026-11-20",
       "provider": "tiingo"
     },
     "INTC": {
@@ -243,7 +247,7 @@
         "close": 52.25,
         "provider": "tiingo"
       },
-      "last_scan_date": "2026-11-19",
+      "last_scan_date": "2026-11-20",
       "provider": "tiingo"
     }
   }
